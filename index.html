@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Angelo Macapuno — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand"><span class="brand-dot"></span>angelo macapuno</div>
+      <nav class="links">
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#experience">experience</a>
+      </nav>
+      <a class="btn btn-primary" href="#contact">say hi</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="wrap hero-inner">
+      <div>
+        <div class="status-pill"><span class="dot"></span>open to full-time &amp; freelance work</div>
+        <h1>code that plays<br>well with <span class="accent">others.</span></h1>
+        <p class="lede">I'm Angelo, a full-stack software engineer who likes building fast, friendly products — from
+          backend systems that hold up under load to the pixels people actually click on.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#projects">see my work</a>
+          <a class="btn btn-ghost" href="#contact">get in touch</a>
+        </div>
+      </div>
+      <div class="code-card">
+        <div class="code-head"><span></span><span></span><span></span></div>
+        <div class="code-body">
+          <div><span class="l1">const</span> engineer = {</div>
+          <div>&nbsp;&nbsp;name: <span class="l2">'Angelo Macapuno'</span>,</div>
+          <div>&nbsp;&nbsp;stack: [<span class="l2">'TS'</span>, <span class="l2">'React'</span>, <span
+              class="l2">'Node'</span>],</div>
+          <div>&nbsp;&nbsp;status: <span class="l3">'shipping'</span></div>
+          <div>};</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="avatar-blob">AR</div>
+      <div class="about">
+        <h2 style="margin-bottom:18px;">about me</h2>
+        <p>I'm a software engineer with <strong>5+ years</strong> building web products end to end — comfortable moving
+          between a Postgres schema, a REST API, and a React component in the same afternoon.</p>
+        <p>Currently building developer tools at <strong>Nimbus Labs</strong>, where I focus on performance, clean APIs,
+          and interfaces that don't get in the way.</p>
+        <p>Outside of work I contribute to a couple of open-source libraries and I'm always up for a good code-review
+          debate.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="eyebrow-free">
+        <h2>what I work with</h2>
+      </div>
+      <p class="section-lede">A toolbox I've picked up (and kept) across five years of shipping.</p>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="pill-row">
+            <span class="pill">TypeScript</span><span class="pill">JavaScript</span><span
+              class="pill">Python</span><span class="pill">Go</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <div class="pill-row">
+            <span class="pill">React</span><span class="pill">Next.js</span><span class="pill">Tailwind</span><span
+              class="pill">Vue</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <div class="pill-row">
+            <span class="pill">Node.js</span><span class="pill">PostgreSQL</span><span class="pill">Redis</span><span
+              class="pill">GraphQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Infra &amp; Tools</h3>
+          <div class="pill-row">
+            <span class="pill">Docker</span><span class="pill">AWS</span><span class="pill">GitHub Actions</span><span
+              class="pill">Terraform</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="eyebrow-free">
+        <h2>things I've built</h2>
+      </div>
+      <p class="section-lede">A few projects I'm proud of — swap these for your own.</p>
+      <div class="project-grid">
+        <div class="card">
+          <div class="card-top"></div>
+          <h3>Pulse</h3>
+          <p>A real-time analytics dashboard that streams product metrics over websockets and renders them without the
+            usual dashboard lag.</p>
+          <div class="tag-row"><span class="tag">React</span><span class="tag">Node.js</span><span
+              class="tag">WebSockets</span></div>
+          <a class="card-link" href="#">view project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M7 17 17 7M7 7h10v10" />
+            </svg></a>
+        </div>
+        <div class="card">
+          <div class="card-top"></div>
+          <h3>Loopline</h3>
+          <p>A lightweight code-review tool that turns pull request comments into a threaded conversation your whole
+            team can follow.</p>
+          <div class="tag-row"><span class="tag">TypeScript</span><span class="tag">GraphQL</span><span
+              class="tag">Postgres</span></div>
+          <a class="card-link" href="#">view project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M7 17 17 7M7 7h10v10" />
+            </svg></a>
+        </div>
+        <div class="card">
+          <div class="card-top"></div>
+          <h3>Nimbus CLI</h3>
+          <p>A friendlier developer CLI with guided prompts and undo-able commands, built to make infra changes a little
+            less scary.</p>
+          <div class="tag-row"><span class="tag">Go</span><span class="tag">Terraform</span></div>
+          <a class="card-link" href="#">view project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M7 17 17 7M7 7h10v10" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="eyebrow-free">
+        <h2>experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-when">2023 — now</div>
+          <div>
+            <div class="t-role">Senior Software Engineer</div>
+            <div class="t-org">Nimbus Labs</div>
+            <div class="t-desc">Leading the developer-tools team; cut CLI onboarding time in half and shipped a new
+              plugin architecture.</div>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-when">2021 — 2023</div>
+          <div>
+            <div class="t-role">Software Engineer</div>
+            <div class="t-org">Brightloop</div>
+            <div class="t-desc">Built and scaled the core booking API, taking it from prototype to 2M+ requests a day.
+            </div>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-when">2019 — 2021</div>
+          <div>
+            <div class="t-role">Junior Developer</div>
+            <div class="t-org">Studio Ten</div>
+            <div class="t-desc">Shipped client websites and internal tools; picked up React, Node, and a healthy respect
+              for QA.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="cta-section">
+        <h2>still scrolling?<br>let's build something.</h2>
+        <p>Open to full-time roles, freelance projects, or just talking shop over a good cup of coffee.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:alex@example.com">email me</a>
+          <a class="btn btn-ghost" href="#">view GitHub</a>
+          <a class="btn btn-ghost" href="#">view LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>© 2026 Angelo Macapuno. Built with a little Discord inspiration.</p>
+      <div class="social-row">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="mailto:alex@example.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
